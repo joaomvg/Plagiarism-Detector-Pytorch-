@@ -1,12 +1,10 @@
-# Plagiarism Project, Machine Learning Deployment
+# Plagiarism Project (UDACITY)
 
 This repository contains code and associated files for deploying a plagiarism detector using AWS SageMaker.
 
 ## Project Overview
 
-In this project, you will be tasked with building a plagiarism detector that examines a text file and performs binary classification; labeling that file as either *plagiarized* or *not*, depending on how similar that text file is to a provided source text. Detecting plagiarism is an active area of research; the task is non-trivial and the differences between paraphrased answers and original work are often not so obvious.
-
-This project will be broken down into three main notebooks:
+In this project, I build a plagiarism detector that examines a text file and performs binary classification; labeling that file as either *plagiarized* or *not*, depending on how similar that text file is to a provided source text. The model consists of a 2-layer NN using Pythorch.
 
 **Notebook 1: Data Exploration**
 * Load in the corpus of plagiarism text data.
@@ -27,7 +25,5 @@ This project will be broken down into three main notebooks:
 * Train your model and deploy it using SageMaker.
 * Evaluate your deployed classifier.
 
----
 
-Please see the [README](https://github.com/udacity/ML_SageMaker_Studies/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
 
